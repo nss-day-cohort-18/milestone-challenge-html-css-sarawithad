@@ -1,0 +1,67 @@
+<!-- Instructions
+
+Create a site for your own personal branding. Keep in mind this is an HTML exercise, however it is also the beginning of your portfolio. We will be focusing on the HTML structure and syntax of your code. Keep styles simple.
+
+Content and Technical Requirements
+
+Title - make it meaningful.
+Header element <h1> - This is the main headline; include your name and what this page is.
+Photo
+Article element containing your bio
+Article element with links to resources or sites you like
+Article element with two sections for future projects (placeholders)
+Footer element with email and professional social media links; Github, twitter, LinkedIn, etc.
+Semantic mark-up for all major elements.
+Validate your html page with W3 validator: https://validator.w3.org/
+Appropriate folder structure: images, css.
+Notes
+
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines the content.
+Color scheme - choose primary, secondary, and tertiary colors in addition to black and white. Use these colors consistently in your stylesheet. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type ="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+	<title>DT Dev Portfolio</title>
+</head>
+<body>
+	<header>	
+		<h1>Dara Thomas: Development Portfolio</h1>
+		<img class="container" src="images/pic3.jpg" alt="Dara Thomas photo"></img>
+	</header>
+
+	<article class="introtext">Hello and thanks for stopping by.<br>My name is Dara Thomas and I'm currently an Apprentice Software Developer as part of Nashville Software School's 18th cohort.<br>I'll be updating this page as my portfolio expands so stay tuned!</article>
+
+	<article><h3>Link Love</h3>
+	link placeholder<br>link placeholder<br>link placeholder</article>
+
+	<article><h3>Projects</h3>
+		<section>future project placeholder</section>
+		<section>future project placeholder</section>		
+	</article>
+
+	<article class="spare">
+		<h3>In My Spare Time:</h3>
+		<img class="darapic" src="images/pic2.jpg" alt="Dara and husband photo"></img>
+		<img class="darapic" src="images/pic6.jpg" alt="Dara and daughter photo"></img>
+		<img class="darapic" src="images/pic5.jpg" alt="Jim James at the Ryman photo"></img>
+	</article>
+
+	<footer>
+		<div> 
+		<h4>Contact Me</h4>
+		<aside><a href="mailto:darasthomas@gmail.com">E-mail</a></aside>
+		<aside><a href="https://github.com/sarawithad">GitHub</a></aside>
+		<aside><a href="https://www.linkedin.com/in/darathomas/">LinkedIn</a></aside>
+		<aside><a href="https://twitter.com/dara_eden">Twitter</a></aside>
+		<aside><a href="https://www.instagram.com/dara_eden/">Instagram</a></aside>
+		</div>
+		<div class ="copyright"> Copyright &#xA9; 2017 Dara Thomas</div>
+	</footer>
+</body>
+</html>
