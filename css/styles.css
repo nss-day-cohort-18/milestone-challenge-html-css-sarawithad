@@ -1,0 +1,62 @@
+* {
+	background-color: #2E4172;
+	color: #7886AB;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+article {
+	font-size: .75em;
+	font-family: 'Julius Sans One', sans-serif;
+	line-height: 2em;
+	margin: 2em 0;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.introtext {
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	width: 20%;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+.spare img {
+	width: 15%;
+	height: 15%;
+	border-radius: 50%;
+	padding: 8em;
+	float: left;
+	margin: 0 3em 0 3em;
+
+}
+
+.spare {
+	margin-bottom: -50px;
+}
+
+footer {
+	text-align: right;
+	font-size: .75em;
+	font-family: 'Julius Sans One', sans-serif;
+	height: 50px;
+
+}
+
+.copyright {
+	text-align: center;
+}
